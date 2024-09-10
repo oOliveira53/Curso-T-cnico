@@ -1,0 +1,72 @@
+/* Definindo a fonte padrão */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo do container principal */
+.container {
+    background: linear-gradient(145deg, #3b3b8f, #221e40);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    text-align: center;
+}
+
+/* Estilo do título */
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #d4afed;
+}
+
+/* Estilo dos campos de formulário */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #c7b1ff;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    background: #2e2e5d;
+    color: #d4afed;
+    font-size: 16px;
+}
+
+form input:disabled {
+    background: #444466;
+    color: #9b9b9b;
+}
+
+/* Estilo do botão de cálculo */
+form button {
+    background: linear-gradient(45deg, #6a1b9a, #8e24aa);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+    margin-bottom: 30px; /* Aumenta o espaço abaixo do botão */
+}
+
+form button:hover {
+    background: linear-gradient(45deg, #8e24aa, #ba68c8);
+}
+
+
